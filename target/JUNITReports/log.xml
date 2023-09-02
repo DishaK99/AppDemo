@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.799" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="validate Login Functionality for swag labs application" name="check the login functionality for valid data" time="5.875">
+<system-out><![CDATA[
+Given user is on the login page for swag lab................................passed
+When user credentials enter username & password.............................passed
+And user clicks on login button.............................................passed
+Then Login should be successful.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate Login Functionality for swag labs application" name="check the login functionality for invalid data" time="3.679">
+<system-out><![CDATA[
+Given user is on the login page for swag lab................................passed
+When user enter invalid username & password.................................passed
+And user clicks on login button.............................................passed
+Then Error message should be displayed......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
